@@ -1,0 +1,44 @@
+.main-game {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  background: linear-gradient(to bottom, #e6f7ff, #cceeff);
+  min-height: 100vh;
+  gap: 50px;
+  color: #111;
+}
+
+.campo-jogo {
+  background: #ffffff;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(0,123,255,0.4);
+}
+
+.painel-historico button {
+  background-color: #00b3ff;
+  color: white;
+  border: none;
+  padding: 10px;
+  margin: 6px 0;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.painel-historico button:hover {
+  background-color: #007acc;
+}
+
+.empate-alerta {
+  background-color: #d1ecf1;
+  color: #0c5460;
+  border: 1px solid #bee5eb;
+  padding: 12px;
+  margin-top: 20px;
+  border-radius: 6px;
+  font-weight: bold;
+  text-align: center;
+  box-shadow: 0px 2px 6px rgba(0,0,0,0.1);
+}
